@@ -1,0 +1,26 @@
+body{
+    background :url("https://wallpaperaccess.com/full/2942781.jpg");
+    background-repeat: no-repeat;
+    background-position: 0%;
+    /* aspect-ratio: 16:9; */
+}
+.navbar{
+    background-color: #0e1f36e3;
+             
+    color: rgb(255, 17, 0);
+    font-weight: bold;
+
+}
+.input-group-text{
+    background: rgb(0, 0, 0);
+    font-weight: bold;
+    color: aqua;
+}
+
+#sp{
+    font-weight: bold;
+}
+#sp1{
+color: red;
+font-weight: bold;
+}

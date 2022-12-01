@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Weather</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet"/>
+</head>
+<body>
+    <nav class="navbar" >         
+        <h1>Weather details form <a href="https://openweathermap.org">OpenWeatherMap</a><h1> 
+    </nav>
+
+    <div class="container input-group mb-3 mt-5 w-50">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="addon-wrapping">City Name</span>
+        </div>
+        <input id="cityName" type="text" class="form-control" placeholder="Enter City Name" aria-label="Enter City Name" aria-describedby="addon-wrapping">
+      </div>
+
+      <div class=" d-grid gap-2 col-2 mx-auto p-4">
+      <button type="button" onclick="getWeather()" class="btn btn-dark btn btn-outline-danger">Submit</button>
+    
+<p id="weather"></p>
+
+    <script src="./weather.js"></script>
+</body>
+</html>
